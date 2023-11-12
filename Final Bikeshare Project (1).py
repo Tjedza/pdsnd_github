@@ -49,9 +49,9 @@ def get_filters():
     print(f'You selected {city} as your city.')
 
     # get user input for month (all, january, february, ... , june)
-    months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
+    months = ['all', 'january', 'february', 'march', 'april', 'may', 'june', 'july']
     while True:
-        month = input("Please enter a month (all, January, February, March, April, May, June): ").strip().lower()
+        month = input("Please enter a month (all, January, February, March, April, May, June, July): ").strip().lower()
 
         if month in months:
             break
