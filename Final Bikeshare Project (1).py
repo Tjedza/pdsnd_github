@@ -59,10 +59,10 @@ def get_filters():
             print("Invalid input. Please enter a valid month or 'All'.")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    days = ["all", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
     while True:
-        day = input("Please enter a day of the week (all, Monday, Tuesday, ..., Sunday): ").strip().lower()
+        day = input("Please enter a day of the week (all, Tuesday, ..., Sunday): ").strip().lower()
 
         if day in days:
             break
